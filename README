@@ -1,0 +1,22 @@
+# Sipka vratilo za zgibove
+
+Photos are resized to max width 680 (use gimp)
+Check all files that are not commited with this command
+
+```
+image.rb resize_if_gt 680 assets/*.jpg
+```
+
+Add watermark
+
+```
+image.rb watermark sipka-vratilo-za-zgibove.trk.in.rs assets/*.jpg
+```
+
+# Deploy
+
+Site is using github pages so to deploy you just need to
+
+```
+git push
+```
